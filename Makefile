@@ -65,7 +65,7 @@ $(OBJDIR)/%.o: src/%.cc
 		echo "Error: Source file variable $< is empty, missing source file."; \
 		false; \
 	else \
-		@mkdir -p $(@D); \
+		mkdir -p $(@D); \
 		$(CC) -c $(CPPFLAGS) $(CXXFLAGS) $(CFLAGS) $< -o $@; \
 	fi
 

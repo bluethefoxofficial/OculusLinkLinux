@@ -12,3 +12,4 @@ OculusLinkLinux.workspace
 .codelite
 .ctagsd
 compile
+*.o
